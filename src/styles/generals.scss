@@ -6,6 +6,9 @@
 body{
     font-family: sans-serif;
 }
+.font-s18{
+    font-size: 18px;
+}
 
 .container-small {
     width: 1030px;
@@ -24,6 +27,21 @@ body{
 .height100{
     height: 100%;
 }
+.height350 {
+    height: 350px;
+}
+.height200 {
+    height: 200px;
+}
+.height400 {
+    height: 400px;
+}
+.width300 {
+    width: 500px;
+}
+.width400{
+    width: 400px;
+}
 .flex-center-items{
     display: flex;
     align-items: center;
@@ -36,6 +54,24 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.d-flex{
+    display: flex;
+}
+.flex-columns{
+    flex-direction: column;
+}
+.marginL50{
+    margin-left: 50px;
+}
+.marginR10{
+    margin-right: 10px;
+}
+.marginR5{
+    margin-right: 5px;
+}
+.marginB10 {
+    margin-bottom: 10px;
 }
 
 
