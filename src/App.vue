@@ -1,10 +1,12 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
 
 export default {
   name: 'App',
   components: {
-    AppHeader
+    AppHeader,
+    AppMain
   }
 }
 
@@ -16,13 +18,16 @@ export default {
         <div class="background container height728">
             <AppHeader/>
         <div class="container-small heightBanner flex-center">
-        <div class="container-Title">
-          <h1 class="title">NO PAIN NO GAIN</h1>
-          <p>Motivation is what gets you started. Habit is what keeps you going </p>
-          <button>JOIN US TODAY</button>
+            <div class="container-Title">
+                <h1 class="title">NO PAIN NO GAIN</h1>
+                <p>Motivation is what gets you started. Habit is what keeps you going </p>
+                <button>JOIN US TODAY</button>
+            </div>
         </div>
-      </div>
-    </div>
+        </div>
+
+        <AppMain></AppMain>
+
         
     </body>
     

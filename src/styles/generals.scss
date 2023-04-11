@@ -18,7 +18,12 @@ body{
 .heightBanner {
     height: calc(100% - 240px);
 }
-
+.height300 {
+    height: 300px;
+}
+.height100{
+    height: 100%;
+}
 .flex-center-items{
     display: flex;
     align-items: center;
