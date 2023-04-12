@@ -48,7 +48,7 @@
         <div class="container-s-trainers-bottom">
           <div class="wrapper-card-trainer">
             <div class="card-trainer" v-for="(train, index) in dataTrainers" :key="index">
-              <img :src="`../assets/images/trainer-${train.img}.jpg`" alt="">
+              <img :src="`./trainer${train.img}.jpg`" alt="">
               <div class="card-trainer-bottom">
                 <div class="card-trainer-title">
                   <h3>{{train.title}}</h3>
@@ -82,12 +82,13 @@
   background-color: #1f2123;
   width: 100%;
     .container-small-trainers {
-      width: 60%;
+      width: 65%;
       margin: 0 auto;
       padding: 50px 50px;
         .container-s-trainers-top {
           h2 {
             color: white;
+            padding-bottom: 10px;
           }
         } 
         .container-s-trainers-bottom {
@@ -96,13 +97,18 @@
           align-items: center;
             .wrapper-card-trainer {
               display: flex;
+              padding: 30px;
                 .card-trainer {
                 height: 310px;
                 margin: 5px 10px 5px 10px;
+                img{
+                  width: 100%;
+                }
                   .card-trainer-bottom {
+                    background-color: #25292b;
                     padding: 18px 0 18px 18px;
                       .card-trainer-title{
-                        width: 175px;
+                       padding: 10px 0px;
                           h3, h4{
                             color: white;
                             font-size: 13px;
@@ -110,7 +116,7 @@
                           }
                       }
                       .card-trainer-des {
-                        width: 175px;
+                        padding: 10px 0px;
                           p{
                             padding: 10px 0 10px;
                             color:  #6b6b6b;
@@ -119,17 +125,17 @@
                           } 
                       }
                       .card-trainer-social {
-                        width: 175px;
                           i {
                             margin-right: 8px;
                             color: white;
+                            background-color: #1f2123;
                           }
                       }
                   }
               }
             }
             .btn-trainers{
-              padding-top: 50px; 
+              padding-top: 100px; 
                 button {
                   padding: 10px 10px 10px 10px;
                   background-color: inherit;

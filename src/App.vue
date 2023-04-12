@@ -1,14 +1,14 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
-import AppFooter from './components/AppFooter.vue';
+
 
 export default {
   name: 'App',
   components: {
     AppHeader,
     AppMain,
-    AppFooter
+    
   },
   data(){
     return{
@@ -35,7 +35,7 @@ export default {
         </div>
 
         <AppMain></AppMain>
-        <AppFooter></AppFooter>
+       
 
         
     </body>
@@ -46,6 +46,7 @@ export default {
 <style lang="scss">
 @use './styles/generals.scss';
 @use './styles/_variable.scss';
+
 .background {
   background-image: url('assets/images/home-banner.jpg');
   background-size: cover;

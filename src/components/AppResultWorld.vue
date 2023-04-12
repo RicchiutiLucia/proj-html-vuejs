@@ -40,7 +40,7 @@ export default{
         <div class="wrapper-testimonials">
           <div class="wrapper-card-testimonial" v-for="(testim, index) in testimonial" :key="index">
             <div class="wrapper-img">
-              <img class="height110" :src="`../assets/images/${testim.img}`" alt="">
+              <img class="height110" :src="`./${testim.img}`" alt="">
             </div>
             <div class="wrapper-name paddingBottom20 paddingTop20">
               <p>{{testim.descrition}}</p>
