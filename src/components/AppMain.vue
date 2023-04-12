@@ -3,8 +3,10 @@
   <AppCLass></AppCLass>
   <AppForm></AppForm>
   <AppActivity></AppActivity>
+  <AppResultWorld></AppResultWorld>
   <AppPerformance></AppPerformance>
   <AppCitazione></AppCitazione>
+  <AppTrainers></AppTrainers>
    
       
 </template>
@@ -16,6 +18,7 @@ import AppActivity from './AppActivity.vue';
 import AppResultWorld from './AppResultWorld.vue';
 import  AppPerformance from './AppPerformance.vue';
 import  AppCitazione from './AppCitazione.vue';
+import  AppTrainers from './AppTrainers.vue';
 
   export default {
     name: 'AppMain',
@@ -29,7 +32,8 @@ import  AppCitazione from './AppCitazione.vue';
       AppActivity,
       AppResultWorld,
       AppPerformance,
-      AppCitazione
+      AppCitazione,
+      AppTrainers
     }
 }
 </script>

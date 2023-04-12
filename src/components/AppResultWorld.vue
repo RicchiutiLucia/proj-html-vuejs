@@ -39,7 +39,7 @@ export default{
         </div>
         <div class="wrapper-testimonials">
           <div class="wrapper-card-testimonial" v-for="(testim, index) in testimonial" :key="index">
-            <div class="wrapper-img paddingTop20 paddingBottom20 paddingLeft20 paddingRight20">
+            <div class="wrapper-img">
               <img class="height110" :src="`../assets/images/${testim.img}`" alt="">
             </div>
             <div class="wrapper-name paddingBottom20 paddingTop20">
@@ -58,8 +58,10 @@ export default{
 @use '../styles/variable.scss';
 
 .container-real-world {
-  width: 100%;
-  height: 550px;
+width: 100%;
+height: 550px;
+  
+background-color: #25292b;
     .container-small-real-world {
       height: 100%;
       width: 80%;

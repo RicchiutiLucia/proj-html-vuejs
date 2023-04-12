@@ -9,7 +9,7 @@ export default{
 </script>
 
 <template>
-     <div class="container-performance backgroundLightGray">
+     <div class="container-performance">
       <div class="container-small-performance">
         <div class="container-small-top flex flex-columns">
           <h2 class="marginB10">HIGH PERFORMANCE FACILITIES</h2>
