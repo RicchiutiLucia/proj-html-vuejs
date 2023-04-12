@@ -22,13 +22,13 @@
   </div>
 </template>
 <style lang="scss" scoped>
-@import '../styles/generals.scss';
-@import '../styles/variable.scss';
+@use '../styles/generals.scss';
+@use '../styles/variable.scss';
 
 .container-Title {
   width: 860px;
   margin-top: 75px;
-  color: $colorWhite;
+  color: white;
   text-align: center;
     h2{
         font-weight: bold;
@@ -46,7 +46,7 @@
   
 }
 .bg{
-    background-color: $colorDarkGrey;
+    background-color: #25292b;
 }
  
     

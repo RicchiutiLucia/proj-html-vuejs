@@ -7,6 +7,11 @@ export default {
   components: {
     AppHeader,
     AppMain
+  },
+  data(){
+    return{
+      
+    }
   }
 }
 
@@ -35,8 +40,8 @@ export default {
 </template>
 
 <style lang="scss">
-@import './styles/generals.scss';
-@import './styles/_variable.scss';
+@use './styles/generals.scss';
+@use './styles/_variable.scss';
 .background {
   background-image: url('assets/images/home-banner.jpg');
   background-size: cover;
@@ -45,13 +50,13 @@ export default {
   width: 100%;
 }
 .title {
-  font-size: $fontSize65;
-  color: $colorWhite;
+  font-size: 65px;
+  color: white;
   font-weight: bold;
 }
 .container-Title {
   margin-top: 75px;
-  color: $colorWhite;
+  color: white;
   text-align: center;
     p {
       font-size: 16px;

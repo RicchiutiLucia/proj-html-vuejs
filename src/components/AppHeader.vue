@@ -62,8 +62,8 @@ export default {
   </script>
   
 <style lang="scss" scoped>
-  @import '../styles/generals.scss';
-  @import '../styles/variable.scss';
+@use '../styles/generals.scss';
+@use '../styles/variable.scss';
 .containerHeader {
   width: 100%;
   height: 240px;
@@ -92,11 +92,11 @@ export default {
               list-style-type: none;
                 a {
                   text-decoration: none;
-                  color: $colorWhite;
-                  font-size: $fontSize13;
+                  color: white;
+                  font-size: 13px;
                 }
                 a.active {
-                  color:$colorRed;
+                  color: #d5625f;
                 }
             }
         }

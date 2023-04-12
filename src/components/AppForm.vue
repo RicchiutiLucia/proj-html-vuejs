@@ -34,13 +34,13 @@ export default {
 </script>
   
 <style lang="scss" scoped>
-@import '../styles/generals.scss';
-@import '../styles/variable.scss';
+@use '../styles/generals.scss';
+@use '../styles/variable.scss';
 .container{
     background-color: #1f2323;
 }
 h3{
-    color: $colorWhite;
+    color: white;
     padding-bottom: 20px;
 }
 input {
@@ -51,12 +51,12 @@ input {
     border: 1px solid #ccc;
     border-radius: 2px;
     box-sizing: border-box;
-    background-color: $colorDarkGrey;
+    background-color: #25292b;
     
 }
 .btn{
     background-color: #ee6059;
-    color: $colorWhite;
+    color: white;
 }
 label{
     color: lightgray;

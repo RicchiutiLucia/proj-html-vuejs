@@ -2,6 +2,8 @@
 
   <AppCLass></AppCLass>
   <AppForm></AppForm>
+  <AppActivity></AppActivity>
+  <AppPerformance></AppPerformance>
    
       
 </template>
@@ -9,6 +11,9 @@
 <script>
 import AppForm from './AppForm.vue';
 import AppCLass from './AppClass.vue';
+import AppActivity from './AppActivity.vue';
+import AppResultWorld from './AppResultWorld.vue';
+import  AppPerformance from './AppPerformance.vue';
 
   export default {
     name: 'AppMain',
@@ -18,14 +23,17 @@ import AppCLass from './AppClass.vue';
     },
     components:{
       AppForm,
-      AppCLass
+      AppCLass,
+      AppActivity,
+      AppResultWorld,
+      AppPerformance
     }
 }
 </script>
     
 <style lang="scss">
-@import '../styles/generals.scss';
-@import '../styles/variable.scss';
+@use '../styles/generals.scss';
+@use '../styles/variable.scss';
 
     
 </style>
