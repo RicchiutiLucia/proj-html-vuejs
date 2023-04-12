@@ -31,11 +31,11 @@ export default{
 </script>
 
 <template>
-    <div class="container-real-world backgroundLightGray">
+    <div class="container-real-world">
       <div class="container-small-real-world">
-        <div class="container-small-top verOriCentering dirCol">
+        <div class="container-small-top flex flex-columns">
           <h2 class="marginB10">REAL WORLD RESULTS</h2>
-          <img class="marginB10" src="../assets/images/divider-xx-red.png" alt="">
+          <img class="image" src="../assets/images/divider-xx-red.png" alt="">
         </div>
         <div class="wrapper-testimonials">
           <div class="wrapper-card-testimonial" v-for="(testim, index) in testimonial" :key="index">
@@ -60,7 +60,6 @@ export default{
 .container-real-world {
 width: 100%;
 height: 550px;
-  
 background-color: #25292b;
     .container-small-real-world {
       height: 100%;
@@ -72,6 +71,7 @@ background-color: #25292b;
         .container-small-top {
           h2 {
             color: white;
+            
           }
         }
         .wrapper-testimonials{
