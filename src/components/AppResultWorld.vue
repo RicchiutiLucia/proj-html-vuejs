@@ -37,9 +37,9 @@ export default{
           <h2 class="marginB10">REAL WORLD RESULTS</h2>
           <img class="image" src="../assets/images/divider-xx-red.png" alt="">
         </div>
-        <div class="wrapper-testimonials">
+        <div class="wrapper-testimonials flex">
           <div class="wrapper-card-testimonial" v-for="(testim, index) in testimonial" :key="index">
-            <div class="wrapper-img">
+            <div class="wrapper-img paddingTop20 paddingBottom20 paddingLeft20 paddingRight20">
               <img class="height110" :src="`./${testim.img}`" alt="">
             </div>
             <div class="wrapper-name paddingBottom20 paddingTop20">
@@ -63,7 +63,7 @@ height: 550px;
 background-color: #25292b;
     .container-small-real-world {
       height: 100%;
-      width: 80%;
+      width: 100%;
       margin: 0 auto;
       display: flex;
       flex-direction: column;
@@ -75,14 +75,13 @@ background-color: #25292b;
           }
         }
         .wrapper-testimonials{
-          display: flex;
-          justify-content: center;
+       
           flex-wrap: wrap;
             .wrapper-card-tesimonial {
-              display: flex;
+            width: 500px;
               background-color: #1f2123;
-              width: 480px;
               margin: 10px;
+              border:  1px solid grey;
           }
         }
         

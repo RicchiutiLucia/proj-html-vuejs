@@ -47,6 +47,7 @@ export default {
 @use './styles/generals.scss';
 @use './styles/_variable.scss';
 
+
 .background {
   background-image: url('assets/images/home-banner.jpg');
   background-size: cover;

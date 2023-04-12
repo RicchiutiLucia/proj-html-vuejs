@@ -7,6 +7,7 @@
   <AppPerformance></AppPerformance>
   <AppCitazione></AppCitazione>
   <AppTrainers></AppTrainers>
+  <AppNews></AppNews>
    
       
 </template>
@@ -19,6 +20,7 @@ import AppResultWorld from './AppResultWorld.vue';
 import AppPerformance from './AppPerformance.vue';
 import AppCitazione from './AppCitazione.vue';
 import AppTrainers from './AppTrainers.vue';
+import AppNews from './AppNews.vue';
 
   export default {
     name: 'AppMain',
@@ -33,7 +35,8 @@ import AppTrainers from './AppTrainers.vue';
       AppResultWorld,
       AppPerformance,
       AppCitazione,
-      AppTrainers
+      AppTrainers,
+      AppNews
     }
 }
 </script>
