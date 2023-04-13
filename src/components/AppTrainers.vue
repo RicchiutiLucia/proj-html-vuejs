@@ -99,11 +99,15 @@
               display: flex;
               padding: 30px;
                 .card-trainer {
+                 
                 height: 310px;
                 margin: 5px 10px 5px 10px;
                 img{
                   width: 100%;
                 }
+                img:hover{
+                  box-shadow: 0px 10px 5px rgb(88, 101, 108);
+                  }
                   .card-trainer-bottom {
                     background-color: #25292b;
                     padding: 18px 0 18px 18px;
@@ -143,6 +147,9 @@
                   background-color: inherit;
                   color: gray;
                   cursor: pointer;
+                }
+                button:hover{
+                  font-size: 16px;
                 }
             } 
         }

@@ -85,6 +85,12 @@ background-color: #25292b;
             width: 250px;
             margin: 20px;
         }
+        img:hover{
+          box-shadow:  10px  10px 5px rgb(88, 101, 108),
+                      -10px -10px 5px rgb(88, 101, 108),
+                       10px -10px 5px rgb(88, 101, 108),
+                      -10px  10px 5px rgb(88, 101, 108);
+        }
     }
 }
 </style>

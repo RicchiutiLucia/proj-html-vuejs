@@ -56,6 +56,9 @@ export default{
             color: #efc1bf;
             cursor: pointer;
         }
+        button:hover{
+          font-size: 16px;
+        }
     }
 }
 

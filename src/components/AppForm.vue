@@ -58,6 +58,9 @@ input {
     background-color: #ee6059;
     color: white;
 }
+.btn:hover{
+    font-size: 16px;
+  }
 label{
     color: lightgray;
     font-size: 14px;

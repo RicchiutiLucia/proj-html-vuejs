@@ -79,6 +79,9 @@ export default {
       color: gray;
       cursor: pointer;
     }
+    button:hover{
+    font-size: 16px;
+  }
 }
 
 </style>

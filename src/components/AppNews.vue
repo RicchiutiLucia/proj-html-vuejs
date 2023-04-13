@@ -138,6 +138,9 @@ export default{
   margin-bottom: 100px;
       
   }
+  button:hover{
+    font-size: 16px;
+  }
 }
 
 
