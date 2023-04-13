@@ -117,10 +117,25 @@ import AppFooterBottom from './AppFooterBottom.vue';
           color: gray;
           margin-bottom: 15px;
         }
+        h1:hover{
+          color: $colorOrange;
+
+        }
+        
         i, span, p {
             color: #999;
             font-size: 11px;
             margin-bottom: 10px;
+        }
+        i:hover{
+          color: $colorOrange;
+        } 
+        span:hover{
+          color: $colorOrange;
+          
+        } 
+        p:hover {
+          color: $colorOrange;
         }
         i {
             margin-right: 2px;

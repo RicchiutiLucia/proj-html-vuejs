@@ -69,6 +69,9 @@
         color: $colorGrey;
         font-size: 10px;
       }
+      i:hover{
+        color: $colorOrange;
+      }
       p {
         color: $colorGrey;
         font-size: 10px;
@@ -76,6 +79,9 @@
             content: ' |';
             margin: 10px;
         }
+      }
+      p:hover{
+        color: $colorOrange;
       }
       
       
@@ -87,6 +93,9 @@
             margin-right: 10px;
             font-size: 25px;
             color: $colorOrange;
+          }
+          i:hover{
+            font-size: 30px;
           }
       }
   }
