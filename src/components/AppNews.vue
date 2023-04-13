@@ -45,8 +45,8 @@ export default{
       <div class="container-news">
       <div class="container-small-news">
         <div class="container-s-news-top">
-          <h2 class="marginB10">PERFORMANCE NEWS</h2>
-          <img class="marginB10" src="../assets/images/divider-xx-red.png" alt="">
+          <h2>PERFORMANCE NEWS</h2>
+          <img src="../assets/images/divider-xx-red.png" alt="">
         </div>
         <div class="container-s-news-bottom">
           <div class="wrapper-card-news">
@@ -62,8 +62,10 @@ export default{
             </div>
           </div>
         </div>
-        <button>READ ALL ARTICLES</button>
       </div>
+    </div>
+    <div class="btn">
+        <button>READ ALL ARTICLES</button>
     </div>
 </template>
 
@@ -79,12 +81,17 @@ export default{
       width: 60%;
       margin: 0 auto;
       .container-s-news-top {
+        margin-top: 20px;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         h2{
             color: white;
+            margin-bottom: 20px;
+        }
+        img{
+          margin-bottom: 30px;
         }
       }
       .container-s-news-bottom {
@@ -115,17 +122,23 @@ export default{
           }
       }
     }
-    button {
-        padding-top: 50px;
-        text-align: center;
-        border: 1px solid gray; 
-        padding: 10px 30px;
-        background-color: inherit;
-        color: gray;
-        cursor: pointer;
-      
-    }
+    
 }
+.btn{
+  background-color: #252a2d;
+  text-align: center;
+  button {
+  padding-top: 50px;
+  border: 1px solid gray; 
+  padding: 10px 30px;
+  background-color: inherit;
+  color: gray;
+  cursor: pointer;
+  margin-bottom: 100px;
+      
+  }
+}
+
 
 
     

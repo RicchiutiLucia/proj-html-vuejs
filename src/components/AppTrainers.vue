@@ -137,9 +137,12 @@
             .btn-trainers{
               padding-top: 100px; 
                 button {
-                  padding: 10px 10px 10px 10px;
+                  padding-top: 50px;
+                  border: 1px solid gray; 
+                  padding: 10px 30px;
                   background-color: inherit;
-                  color:  #6b6b6b;
+                  color: gray;
+                  cursor: pointer;
                 }
             } 
         }

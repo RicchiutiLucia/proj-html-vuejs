@@ -8,6 +8,7 @@
   <AppCitazione></AppCitazione>
   <AppTrainers></AppTrainers>
   <AppNews></AppNews>
+  <AppGoals></AppGoals>
    
       
 </template>
@@ -21,6 +22,7 @@ import AppPerformance from './AppPerformance.vue';
 import AppCitazione from './AppCitazione.vue';
 import AppTrainers from './AppTrainers.vue';
 import AppNews from './AppNews.vue';
+import AppGoals from './AppGoals.vue';
 
   export default {
     name: 'AppMain',
@@ -36,7 +38,8 @@ import AppNews from './AppNews.vue';
       AppPerformance,
       AppCitazione,
       AppTrainers,
-      AppNews
+      AppNews,
+      AppGoals
     }
 }
 </script>
