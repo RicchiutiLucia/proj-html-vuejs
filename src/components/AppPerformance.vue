@@ -3,6 +3,27 @@ export default{
     name:'AppPerformance',
     data(){
         return{
+          Performance :
+                        [
+                            {
+                                immagine: 'image1-200x135'
+                            },
+                            {
+                                immagine: 'image2-200x135'
+                            },
+                            {
+                                immagine: 'image3-200x135'
+                            },
+                            {
+                                immagine: 'image4-200x135'
+                            },
+                            {
+                                immagine: 'image54-200x135'
+                            },
+                            {
+                                immagine: 'image6-200x135'
+                            }
+                        ]
         }
     }
 }
@@ -12,17 +33,12 @@ export default{
      <div class="container-performance">
       <div class="container-small-performance">
         <div class="container-small-top flex flex-columns">
-          <h2 class="marginB10">HIGH PERFORMANCE FACILITIES</h2>
-          <img class="marginB10" src="../assets/images/divider-xx-red.png" alt="">
+          <h2 >HIGH PERFORMANCE FACILITIES</h2>
+          <img class="image" src="../assets/images/divider-xx-red.png" alt="">
         </div>
         <div class="wrapper-img-performance">
-          <div class="wrapper-card">
-            <img src="../assets/images/home-image1.jpg">
-            <img src="../assets/images/home-image2.jpg">
-            <img src="../assets/images/home-image3.jpg">
-            <img src="../assets/images/home-image4.jpg">
-            <img src="../assets/images/home-image54.jpg">
-            <img src="../assets/images/home-image6.jpg">
+          <div class="wrapper-card" v-for="(img, index) in Performance" :key="index">
+            <img :src="(`./home-${img.immagine}.jpg`)" alt="">
           </div>
         </div>
       </div>
@@ -46,6 +62,10 @@ background-color: #25292b;
         .container-small-top {
             h2 {
               color: white;
+              padding: 30px;
+            }
+            .image{
+              margin-bottom: 20px;
             }
         }
     }
@@ -53,6 +73,7 @@ background-color: #25292b;
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
       
        .wrapper-card{
          margin: 5px 20px 20px 20px;
@@ -60,10 +81,10 @@ background-color: #25292b;
          justify-content: center;
          flex-wrap: wrap;
        }
-    img{
-        width: 300px;
-        margin: 20px;
-    }
+        img{
+            width: 250px;
+            margin: 20px;
+        }
     }
 }
 </style>
