@@ -55,22 +55,22 @@
   </script>
   
 
-  <style scoped lang="scss">
-@use '../styles/generals.scss';
-@use '../styles/variable.scss';
+<style lang="scss" scoped >
+@import '../styles/generals.scss';
+@import '../styles/variable.scss';
 .container-bottom{
-    background-color: #1a1c1e;
+    background-color: $colorLightBlack;
     display: flex;
     justify-content: space-around;
     padding: 30px;
     .left {
-        margin-left: 50px;
+        margin-left: 30px;
       i {
-        color: #999999;
+        color: $colorGrey;
         font-size: 10px;
       }
       p {
-        color: #999999;
+        color: $colorGrey;
         font-size: 10px;
           &::after {
             content: ' |';
@@ -86,7 +86,7 @@
           i {
             margin-right: 10px;
             font-size: 25px;
-            color: #ee6059;
+            color: $colorOrange;
           }
       }
   }

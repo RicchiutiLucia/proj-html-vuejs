@@ -70,11 +70,12 @@ export default{
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/generals.scss';
-@use '../styles/variable.scss';
+@import '../styles/generals.scss';
+@import '../styles/variable.scss';
+
 
 .container-news {
-  background-color: #252a2d;
+  background-color: $backgroundShark;
   width: 100%;
   padding: 50px 50px;
     .container-small-news{
@@ -87,7 +88,7 @@ export default{
         flex-direction: column;
         align-items: center;
         h2{
-            color: white;
+            color: $colorWhite;
             margin-bottom: 20px;
         }
         img{
@@ -101,7 +102,7 @@ export default{
             justify-content: center;
             flex-wrap: wrap;
               .card-news {
-                background-color: #1f2123;
+                background-color: $backgroundDarkGray;
                 margin: 10px 10px 10px 10px;
                 width: 250px;
                 height: 100%;
@@ -111,10 +112,10 @@ export default{
                   .cont-s-n-bot-bot {
                     padding: 15px 15px 15px 15px;
                     h3{
-                        color: white;
+                        color: $colorWhite;
                     }
                     p{
-                        color:grey;
+                        color:$colorParagrafo;
                         font-size: 13px;
                         padding-top: 10px;
                     }

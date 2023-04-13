@@ -54,13 +54,13 @@ export default{
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/generals.scss';
-@use '../styles/variable.scss';
+@import '../styles/generals.scss';
+@import '../styles/variable.scss';
 
 .container-real-world {
 width: 100%;
 height: 700px;
-background-color: #25292b;
+background-color: $backgroundGrayLight;
 padding: 100px 120px 100px 120px;
     .container-small-real-world {
       height: 100%;
@@ -71,7 +71,7 @@ padding: 100px 120px 100px 120px;
       justify-content: center;
         .container-small-top {
           h2 {
-            color: white;
+            color: $colorWhite;
             margin-top: 50px;
             
           }
@@ -83,7 +83,7 @@ padding: 100px 120px 100px 120px;
           justify-content: center;
           align-items: center;
             .wrapper-card-testimonial{
-              background-color: #1f2123;
+              background-color: $backgroundDarkGray;
               margin: 5px 20px 20px 20px;
               padding: 20px;
               width: 450px;
@@ -93,13 +93,13 @@ padding: 100px 120px 100px 120px;
                   justify-content: flex-start;
                 }
                 h4{
-                  color: white;
+                  color: $colorWhite;
                   font-size: 12px;
                   padding: 15px;
                   color:#aaa9a9;
                 }
                 p{
-                  color: white;
+                  color: $colorWhite;
                   font-size: 12px;
                   padding: 15px;
                   line-height: 20px;

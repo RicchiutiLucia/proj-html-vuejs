@@ -45,8 +45,9 @@ import AppGoals from './AppGoals.vue';
 </script>
     
 <style lang="scss">
-@use '../styles/generals.scss';
-@use '../styles/variable.scss';
+@import '../styles/generals.scss';
+@import '../styles/variable.scss';
+
 
     
 </style>

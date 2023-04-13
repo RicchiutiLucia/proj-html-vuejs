@@ -46,13 +46,14 @@ export default{
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/generals.scss';
-@use '../styles/variable.scss';
+@import '../styles/generals.scss';
+@import '../styles/variable.scss';
+
 .container-performance {
 width: 100%;
 padding: 100px 120px 100px 120px;
 
-background-color: #25292b;
+background-color: $backgroundGrayLight;
     .container-small-performance{
       width: 100%;
       margin: 0 auto;
@@ -61,7 +62,7 @@ background-color: #25292b;
       justify-content: center;
         .container-small-top {
             h2 {
-              color: white;
+              color: $colorWhite;
               padding: 30px;
             }
             .image{

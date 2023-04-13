@@ -75,11 +75,12 @@
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/generals.scss';
-@use '../styles/variable.scss';
+@import '../styles/generals.scss';
+@import '../styles/variable.scss';
+
 
 .container-trainers {
-  background-color: #1f2123;
+  background-color: $backgroundDarkGray;
   width: 100%;
     .container-small-trainers {
       width: 65%;
@@ -87,7 +88,7 @@
       padding: 50px 50px;
         .container-s-trainers-top {
           h2 {
-            color: white;
+            color: $colorWhite;
             padding-bottom: 10px;
           }
         } 
@@ -109,12 +110,12 @@
                   box-shadow: 0px 10px 5px rgb(88, 101, 108);
                   }
                   .card-trainer-bottom {
-                    background-color: #25292b;
+                    background-color: $backgroundGrayLight;
                     padding: 18px 0 18px 18px;
                       .card-trainer-title{
                        padding: 10px 0px;
                           h3, h4{
-                            color: white;
+                            color: $colorWhite;
                             font-size: 13px;
                             line-height: 16px;
                           }
@@ -123,7 +124,7 @@
                         padding: 10px 0px;
                           p{
                             padding: 10px 0 10px;
-                            color:  #6b6b6b;
+                            color:  $colorDoveGray;
                             font-size: 13px;
                             line-height: 16px;
                           } 
@@ -131,8 +132,8 @@
                       .card-trainer-social {
                           i {
                             margin-right: 8px;
-                            color: white;
-                            background-color: #1f2123;
+                            color: $colorWhite;
+                            background-color: $backgroundDarkGray;
                           }
                       }
                   }

@@ -99,11 +99,12 @@ import AppFooterBottom from './AppFooterBottom.vue';
 </template>
 
 <style lang="scss">
-@use '../styles/generals.scss';
-@use '../styles/variable.scss';
+@import '../styles/generals.scss';
+@import '../styles/variable.scss';
+
 .container{
     width: 100%;
-    background-color: #1f2123;
+    background-color: $backgroundDarkGray;
     .wrapper-container{
         display: flex;
         padding: 20px;
@@ -127,11 +128,11 @@ import AppFooterBottom from './AppFooterBottom.vue';
         .opening{
             font-size: 11px;
             margin-bottom: 10px;
-            color:#4a5053;
+            color:$colorLigthGrey;
 
         }
         .line{
-            color: #4a5053;
+            color: $colorLigthGrey;
         }
         .line-height{
             line-height: 20px;

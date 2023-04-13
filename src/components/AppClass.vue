@@ -22,8 +22,9 @@
   </div>
 </template>
 <style lang="scss" scoped>
-@use '../styles/generals.scss';
-@use '../styles/variable.scss';
+@import '../styles/generals.scss';
+@import '../styles/variable.scss';
+
 
 .container-Title {
   width: 900px;
@@ -47,7 +48,7 @@
   
 }
 .bg{
-    background-color: #25292b;
+    background-color: $backgroundGrayLight;
 }
  
     

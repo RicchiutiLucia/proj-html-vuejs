@@ -50,8 +50,8 @@
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/generals.scss';
-@use '../styles/variable.scss';
+@import '../styles/generals.scss';
+@import '../styles/variable.scss';
 
 .backActivities {
   background-image: url('../assets/images/gym_bkgd_bw-compressor.jpg');
@@ -66,11 +66,11 @@
         .cycleIcon {
           width: 60px;
           height: 60px;
-          border: 1px solid #d5625f;
+          border: 1px solid $borderIcon;
           border-radius: 50%;
             .largeIcon{
               font-size: 30px;
-              color: #ee6059;
+              color: $colorOrange;
             }
         }
         p {

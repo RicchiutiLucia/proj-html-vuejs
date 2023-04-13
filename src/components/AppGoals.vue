@@ -24,8 +24,9 @@ export default{
 </template>
 
 <style lang="scss">
-@use '../styles/generals.scss';
-@use '../styles/variable.scss';
+@import '../styles/generals.scss';
+@import '../styles/variable.scss';
+
 
 .container-goal {
   width: 100%;
@@ -38,22 +39,22 @@ export default{
       align-items: center;
         h3 {
             margin: 80px  0px 0px 0px;
-          color: white;
+          color: $colorWhite;
         
         }
         p{
             margin-top: 20px;
-            color: white; 
+            color: $colorWhite; 
            
         }
         button {
             margin-top: 80px;
             margin-left: 100px;
             padding-top: 50px;
-            border: 1px solid #efc1bf; 
+            border: 1px solid $borderButton; 
             padding: 15px 30px;
             background-color: inherit;
-            color: #efc1bf;
+            color: $borderButton;
             cursor: pointer;
         }
         button:hover{

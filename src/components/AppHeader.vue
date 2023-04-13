@@ -63,8 +63,9 @@ export default {
   </script>
   
 <style lang="scss" scoped>
-@use '../styles/generals.scss';
-@use '../styles/variable.scss';
+@import '../styles/generals.scss';
+@import '../styles/variable.scss';
+
 .containerHeader {
   width: 100%;
   height: 240px;
@@ -93,11 +94,11 @@ export default {
               list-style-type: none;
                 a {
                   text-decoration: none;
-                  color: white;
+                  color: $colorWhite;
                   font-size: 13px;
                 }
                 a.active {
-                  color: #d5625f;
+                  color: $borderIcon;
                 }
             }
         }

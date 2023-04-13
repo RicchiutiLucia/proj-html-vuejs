@@ -1,8 +1,8 @@
 <template>
      <div class="container height400">
       <div class="container-small height100">
-        <!-- Inserendo contenuto posso eliminare le altezze fisse e rendere il tutto dinamico -->
-        <div class="flex height350"> <!-- Utilizzando flex con un div mancante, avrei perso elasticità-->
+        
+        <div class="flex height350"> 
           <div class="height200  marginR10">
             <img class="width400" src="../assets/images/home_img-compressor.jpg" alt="">
           </div>
@@ -34,10 +34,11 @@ export default {
 </script>
   
 <style lang="scss" scoped>
-@use '../styles/generals.scss';
-@use '../styles/variable.scss';
+@import '../styles/generals.scss';
+@import '../styles/variable.scss';
+
 .container{
-    background-color: #1f2323;
+    background-color: $backgroundDarkGray;
 }
 h3{
     color: white;
@@ -51,12 +52,12 @@ input {
     border: 1px solid #ccc;
     border-radius: 2px;
     box-sizing: border-box;
-    background-color: #25292b;
+    background-color: $backgroundGrayLight;
     
 }
 .btn{
-    background-color: #ee6059;
-    color: white;
+    background-color: $colorOrange;
+    color: $colorWhite;
 }
 .btn:hover{
     font-size: 16px;

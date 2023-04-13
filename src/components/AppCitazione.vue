@@ -19,6 +19,9 @@
     </div>
 </template>
 <style lang="scss" scoped>
+@import '../styles/generals.scss';
+@import '../styles/variable.scss';
+
 .container-citation {
   background-image: url('../assets/images/home-testimonial-bg.jpg');
   background-position: center;
@@ -38,14 +41,14 @@
         }
         p {
           font-size: 20px;
-          color: white;
+          color: $colorWhite;
           text-align: center;
           padding-bottom: 40px;
           line-height: 40px;
         }
         h3 {
           font-size: 14px;
-          color: white;
+          color: $colorWhite;
           text-align: center;
         }
     }
