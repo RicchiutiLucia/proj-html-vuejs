@@ -1,6 +1,10 @@
 <script>
+import AppFooterBottom from './AppFooterBottom.vue';
   export default {
     name: 'AppFooter',
+    components:{
+        AppFooterBottom
+    },
     data(){
       return{
         contact:[
@@ -8,33 +12,12 @@
                 title: 'COME FINDUS',
                 phone: 'Phone: 1.800.555.6789',
                 city: 'NewYork. NY 5555',
-                email: 'info@your-domain.com',
+                email: 'Email: info@your-domain.com',
                 street: '12345 North Main Street'
             }
 
         ],
-        proprerty:[
-            {
-                copyright: 'Copyright 2012-2020',
-                theme: 'Avada theme by Theme Fusion' ,
-                right: 'All Rights reserved',
-                createWith: 'Powered by Wordpress'
-            }
-        ],
-        social:[
-            {
-                prefix: 'fab',
-                icon: 'fa-facebook-square'
-            },
-            {
-                prefix: 'fab',
-                icon: 'fa-twitter-square'
-            },
-            {
-                prefix: 'fab',
-                icon: 'fa-instagram-square'
-            }
-        ],
+        
         question:[
            {
             title: 'RECENT POST',
@@ -109,6 +92,8 @@
     </div>
   </div>
     </div>
+
+    <AppFooterBottom></AppFooterBottom>
    
 
 </template>

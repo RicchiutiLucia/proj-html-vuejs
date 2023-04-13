@@ -52,7 +52,7 @@ export default{
           <div class="wrapper-card-news">
             <div class="card-news" v-for="(element,index) in news" :key="index">
               <div class="cont-s-n-bot-top">
-                <img :src="`./${element.img}`" alt="">
+                <img class="image" :src="`./${element.img}`" alt="">
               </div>
               <div class="cont-s-n-bot-bot">
                 <h3>{{element.title}}</h3>
@@ -93,6 +93,7 @@ export default{
         img{
           margin-bottom: 30px;
         }
+        
       }
       .container-s-news-bottom {
           .wrapper-card-news {
