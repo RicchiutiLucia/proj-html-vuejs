@@ -108,6 +108,11 @@ export default{
                 height: 100%;
                 img{
                     width: 100%;
+                    
+                }
+                
+                .cont-s-n-bot-top img:hover{
+                  opacity: 0.3;
                 }
                   .cont-s-n-bot-bot {
                     padding: 15px 15px 15px 15px;
@@ -142,6 +147,12 @@ export default{
   button:hover{
     font-size: 16px;
   }
+}
+.d-block{
+  display: block;
+}
+.d-none{
+  display: none;
 }
 
 

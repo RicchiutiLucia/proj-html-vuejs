@@ -76,6 +76,7 @@ background-color: $backgroundGrayLight;
       align-items: center;
       flex-wrap: wrap;
       
+      
        .wrapper-card{
          margin: 5px 20px 20px 20px;
          display: flex;
