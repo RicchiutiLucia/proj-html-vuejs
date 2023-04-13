@@ -26,7 +26,7 @@
 @use '../styles/variable.scss';
 
 .container-Title {
-  width: 860px;
+  width: 900px;
   margin-top: 75px;
   color: white;
   text-align: center;
@@ -40,6 +40,7 @@
       font-size: 16px;
       color: lightgray;
       margin-top: 10px;
+      margin-bottom: 20px;
       padding: 15px 15px;
       line-height: 40px;
     }
